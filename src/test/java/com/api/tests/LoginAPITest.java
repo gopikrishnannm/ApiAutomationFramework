@@ -1,10 +1,11 @@
 package com.api.tests;
 
-import static org.testng.Assert.assertEquals;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthService;
+import com.api.model.request.LoginRequest;
+import com.api.model.response.LoginResponse;
 
 import io.restassured.response.Response;
 
@@ -14,9 +15,16 @@ public class LoginAPITest {
 	@Test
 	public void loginTest() {
 		
+		LoginRequest loginRequest = new LoginRequest("gknm", "gkgkgk");
+		
 		AuthService authService = new AuthService();
-		Response response = authService.login("{ \"username\": \"string\", \"password\": \"string\" }");
+		Response response = authService.login(loginRequest);
 		System.out.println(response.asPrettyString());
+		LoginResponse loginResponse = response.as(LoginResponse.class);
+		System.out.println(loginResponse.getToken());
+		
+		Assert.assertTrue(loginResponse.getToken() != null);
+		
 		
 	}
 
