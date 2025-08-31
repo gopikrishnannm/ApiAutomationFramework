@@ -1,0 +1,85 @@
+18:11:02.659 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:11:02.704 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+18:11:05.544 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+18:11:05.544 [main] INFO  com.api.listeners.TestListener - Description 
+18:11:05.576 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:11:41.149 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:11:41.201 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+18:11:41.309 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:11:41.353 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+18:11:43.821 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+18:11:43.832 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+18:11:43.869 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+18:11:43.869 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+18:11:43.872 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:11:43.913 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:11:56.335 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:11:56.375 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+18:11:58.570 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+18:11:58.570 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+18:11:58.608 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+18:37:42.878 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+18:37:42.926 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+18:37:45.163 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+18:37:45.165 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+18:37:45.202 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:01:37.036 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:01:37.079 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+19:01:38.513 [main] INFO  com.api.listeners.TestListener - Base URI : http://64.227.160.186:8080
+19:01:38.514 [main] INFO  com.api.listeners.TestListener - Request Header:Accept=*/*
+Content-Type=application/json
+19:01:38.514 [main] INFO  com.api.listeners.TestListener - Request Payload {"username":"gknm","password":"gkgkgk"}
+19:01:39.131 [main] INFO  com.api.listeners.TestListener - Status code : 200
+19:01:39.131 [main] INFO  com.api.listeners.TestListener - Response Header:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 30 Aug 2025 13:31:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:01:39.132 [main] INFO  com.api.listeners.TestListener - Response Payload io.restassured.internal.RestAssuredResponseImpl@310ed6b4
+19:01:39.209 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+19:01:39.209 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+19:01:39.239 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+19:43:15.894 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+19:43:15.940 [main] INFO  com.api.listeners.TestListener - Test Started loginTest
+19:43:17.504 [main] INFO  com.api.listeners.TestListener - Base URI : http://64.227.160.186:8080
+19:43:17.506 [main] INFO  com.api.listeners.TestListener - Request Header:Accept=*/*
+Content-Type=application/json
+19:43:17.506 [main] INFO  com.api.listeners.TestListener - Request Payload {"username":"gknm","password":"gkgkgk"}
+19:43:18.220 [main] INFO  com.api.listeners.TestListener - Status code : 200
+19:43:18.220 [main] INFO  com.api.listeners.TestListener - Response Header:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 31 Aug 2025 14:13:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:43:18.221 [main] INFO  com.api.listeners.TestListener - Response Payload io.restassured.internal.RestAssuredResponseImpl@72503b19
+19:43:18.333 [main] INFO  com.api.listeners.TestListener - Passed loginTest
+19:43:18.333 [main] INFO  com.api.listeners.TestListener - Description To verify login api is working
+19:43:18.363 [main] INFO  com.api.listeners.TestListener - Test Suite Completed

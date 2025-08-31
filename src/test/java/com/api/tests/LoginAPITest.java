@@ -1,6 +1,7 @@
 package com.api.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthService;
@@ -9,10 +10,11 @@ import com.api.model.response.LoginResponse;
 
 import io.restassured.response.Response;
 
+@Listeners(com.api.listeners.TestListener.class)
 public class LoginAPITest {
 	
-	
-	@Test
+
+	@Test(description = "To verify login api is working")
 	public void loginTest() {
 		
 		LoginRequest loginRequest = new LoginRequest("gknm", "gkgkgk");
@@ -54,5 +56,19 @@ public class LoginAPITest {
 		
 	}*/
 	
+	/*
+	@Test
+	public void testLogin() {
+	    RestAssured.given()
+	        .baseUri("http://64.227.160.186:8080")
+	        .contentType(ContentType.JSON)
+	        .body("{ \"username\": \"uday1234\", \"password\": \"uday1234\" }")
+	    .when()
+	        .post("/login")
+	    .then()
+	        .statusCode(200)
+	        .body("token", notNullValue());
+	}
+	*/
 
 }
